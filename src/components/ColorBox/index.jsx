@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 import './ColorBox.scss';
 
 ColorBox.propTypes = {
@@ -35,5 +34,4 @@ function ColorBox() {
     );
 }
 
-export default
-ColorBox;
+export default ColorBox;
