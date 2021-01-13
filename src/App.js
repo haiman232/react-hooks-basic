@@ -9,6 +9,7 @@ import queryString from "query-string";
 import PostFiltersForm from "./components/PostFiltersForm";
 import Clock from "./components/Clock";
 import BetterClock from "./components/BetterClock";
+import MagicColor from "./components/MagicColor";
 
 function App() {
   const [todoList, setTodoList] = useState([
@@ -101,6 +102,7 @@ function App() {
       <Pagination pagination={pagination} onPageChange={handlePageChange} />
       <TodoForm onSubmit={handleTodoFormSubmit} />
       <TodoList todos={todoList} onTodoClick={handleTodoClick} />
+      <MagicColor />
     </div>
   );
 }

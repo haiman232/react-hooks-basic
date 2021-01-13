@@ -1,0 +1,7 @@
+.magic-box{
+  $box-size: 200px;
+  width: $box-size;
+  height: $box-size;
+
+  transition: all .35s ease-in-out 0s;
+}
