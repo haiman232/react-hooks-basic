@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function randomColor(currentColor) {
   const COLOR_LIST = ["red", "green", "blue"];
