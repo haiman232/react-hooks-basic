@@ -102,6 +102,7 @@ function HomePage() {
       <Pagination pagination={pagination} onPageChange={handlePageChange} />
       <TodoForm onSubmit={handleTodoFormSubmit} />
       <TodoList todos={todoList} onTodoClick={handleTodoClick} />
+
       <MagicColor />
     </div>
   );
